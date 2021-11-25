@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 96%;
+    margin: auto;
+
+}
+
+header{
+    margin-top: .7em;
+    display: flex;
+    justify-content: space-between;
+}
+/* header div{
+    border: 1px solid green;
+} */
+.menu{
+    padding-top: 5px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    width: 100%;
+    margin: auto;
+}
+
+.cart{
+    padding: .5em;
+    background-color:#f0f0f0;
+    border-radius: 100%;
+}
+
+.slider{
+    border: 1px solid green;
+}
+
+.photos-slider{
+    border: 1px solid red;
+    display: flex;
+    /* width: 400%; */
+}
+
+.slider-img{
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-img img{
+    width: 60%;
+    max-height: 80px;
+    
+}
+.dot-cont{
+    text-align: center;
+    
+}
+
+/* Standards */
+
+.standards{
+    /* border: 1px solid palegreen; */
+    display: flex;
+    margin-top: 01em;
+}
+
+.std-cont{
+    /* border: 1px solid red; */
+    width: 18%;
+    margin: auto;
+}
+
+.std-img{
+    width: 100%;
+    min-height: 70px;
+    background-color: rgb(160, 211, 245,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .89em;
+}
+.std-img p{
+    border:3px double rgb(35, 35, 116);
+    padding: 6%;
+    border-radius: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .std-img img{
+    width: 100%;
+ 
+    border-radius: 20%;
+} */
+.std-txt{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.77em;
+    font-weight: 10;
+}
+
+/* novels */
+
+.sub-ttl{
+    padding-top: 0.7em;
+    padding-bottom: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: .1em;
+
+}
+
+.slider-novels{
+    /* border: 1px solid blue; */
+    padding-top: .4em;
+    width: 400%;
+    display: flex;
+}
+.img-novel{
+    width: 70%;
+    min-height: 90px;
+    /* margin-left: 5px; */
+    margin-right: 8px;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+.slider-books{
+    /* border: 1px solid yellow; */
+    display: flex;
+    padding-top: 0.4em;
+    width: 280%;
+
+}
+.block-featured{
+    /* border: 1px solid red; */
+    width: 400%;
+    padding-right: 1em;
+
+}
+
+.img-featured{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f1f1;
+    border-radius: 10%;
+}
+
+.img-featured img{
+     width: 50%;
+    /* min-height: 100px;
+    max-height: 200px;  */
+    padding:15px 10px 15px 10px;
+
+}
+
+.details{
+    padding-top: .5em;
+}
+
+.book-name p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    word-spacing: 1.5px;
+    font-weight: 10;
+
+}
+
+.price{
+    padding-top: .5em;
+    padding-left: .1em;
+}
+.disc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(125, 127, 245);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.actual{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(119, 129, 139);
+}
+.disc-per{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: rgb(91, 189, 91);
+}
